@@ -17,8 +17,8 @@ os.path.join(os.path.dirname(__file__), ".."): This joins the directory name of 
 os.path.abspath(os.path.join(os.path.dirname(__file__), "..")): This gets the absolute path of the parent directory of the current script.
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))): This inserts the absolute path of the parent directory of the current script at the beginning of the sys.path list, which means that Python will look for modules in that directory before looking in any other directories.
-"""
 
+"""
 
 import sys 
 from dataclasses import dataclass
